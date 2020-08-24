@@ -1,0 +1,79 @@
+.title, .item, .price {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+/*Banner*/
+.banner {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+    background-color: silver;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title {
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+}
+
+/*Main Page*/
+
+.body {
+    padding-top: 250px;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    background-color: #FBF8F0;
+}
+
+.products {
+    margin-left: 25px;
+    padding-bottom: 25px;
+}
+
+.item-banner {
+    width: 100%;
+}
+
+.item {
+    font-size: 32px;
+    color: white;
+    padding-left: 20px;
+    border-radius: 15px 0 0 15px;
+}
+
+.products img {
+    margin-left: 60px;
+    margin-bottom: 15px;
+    border: 5px solid khaki;
+    border-radius: 10px;
+}
+
+.subtitle {
+    padding-left: 20px;
+}
+
+.description {
+    padding-left: 20px;
+}
+
+.price {
+    color: blue;
+}
+
+/*Section Colors*/
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
